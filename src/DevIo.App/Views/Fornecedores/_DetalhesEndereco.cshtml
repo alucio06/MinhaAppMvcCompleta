@@ -1,0 +1,71 @@
+﻿@model IEnumerable<DevIo.App.ViewModels.FornecedorViewModel>
+
+<div style="padding-top: 20px">
+    <div>
+        <hr />
+        <h4>Endereço</h4>
+    </div>
+</div>
+
+@if (Model != null){
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco.Logradouro)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco.Numero)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco.Complemento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco.Cep)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco.Bairro)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco.Cidade)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco.Estado)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Endereco.Logradouro)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Endereco.Numero)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Endereco.Complemento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Endereco.Cep)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Endereco.Bairro)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Endereco.Cidade)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Endereco.Estado)
+                    </td>
+                    <td>
+                        <a class="btn btn-info"><span title="Editar" class="fa fa-pencil-alt"></span></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
