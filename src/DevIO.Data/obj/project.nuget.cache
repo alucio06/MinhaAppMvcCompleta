@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tFVLrarn2Iu2BbtV3jIY7PTuVGMpeVYh/H/GhNfnvZZY6ATv/WkIdcHNiRG3uW+7x5++cm3zTUSgTYLL+Te7Qg==",
+  "dgSpecHash": "FUwr9Z27UdZ/noviT+mUMWUbux0BD/hlJk1aRmczjk1SQc0g18BI9zQ/aYer8crfyYy8GFhhBkgMBoqEGl8Q5g==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\MinhaAppMvcCompleta - Copia\\src\\DevIO.Data\\DevIO.Data.csproj",
+  "projectFilePath": "C:\\Projetos\\teste\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

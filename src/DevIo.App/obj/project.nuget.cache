@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j8jrqM0Zeahl9wiXIce09XbQ0/6Je//0cNqIObnPRoRLMakLGG2178nHUavB6yg8NzIzUl9M7uhTQyk/jGtwcA==",
+  "dgSpecHash": "USlyop/lp+LQeavj542mPo2hYB215oTsGCXgbQAnS+v8j/B3oa8lkAB6i4RTdZAgcaAyBHR6dzeoikGZYG/g2w==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\MinhaAppMvcCompleta - Copia\\src\\DevIo.App\\DevIo.App.csproj",
+  "projectFilePath": "C:\\Projetos\\teste\\MinhaAppMvcCompleta\\src\\DevIo.App\\DevIo.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

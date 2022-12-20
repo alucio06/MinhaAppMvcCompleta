@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SXTh8Hpmv8oXThzgNWOvrI7R3U41JaawqvCeFWfMsYyjBLxK4JWkNLcz7feOBr+Ddn1iQ8e56cHHP+fqiys/2Q==",
+  "dgSpecHash": "F3p+SvwOwN6ro/8fAghY9bGniY3yfMGbgWeyTzmjCovg/2ogEjxWFtPyP28oCmHOWMY35uIToD2ZRMfgNGDVJA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\MinhaAppMvcCompleta - Copia\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "projectFilePath": "C:\\Projetos\\teste\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
