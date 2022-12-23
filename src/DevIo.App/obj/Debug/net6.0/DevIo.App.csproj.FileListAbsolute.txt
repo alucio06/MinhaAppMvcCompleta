@@ -569,3 +569,5 @@ C:\Projetos\teste\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net6.0\refint\DevI
 C:\Projetos\teste\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net6.0\DevIo.App.pdb
 C:\Projetos\teste\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net6.0\DevIo.App.genruntimeconfig.cache
 C:\Projetos\teste\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net6.0\ref\DevIo.App.dll
+C:\Projetos\teste\MinhaAppMvcCompleta\src\DevIo.App\bin\Debug\net6.0\appsettings.Production.json
+C:\Projetos\teste\MinhaAppMvcCompleta\src\DevIo.App\bin\Debug\net6.0\appsettings.Staging.json
