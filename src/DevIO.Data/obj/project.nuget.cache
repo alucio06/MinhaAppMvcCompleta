@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dPAvIHMmyhXxFgyO7xCX6kfGgHBAPF6dmCF3kgTIJFlvDJkdy/5+pKQYzOC/u3gWLONgY5Cr1CgV/di/imjSZw==",
+  "dgSpecHash": "9DcAluDIRCE1pAJQgW1gAEby572q+3Sb74KEaWSrrWyFqsi5YPdAHk90PmxxEgGvdYYLT/nGCKNxkN2HeMxK3Q==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Estudo\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A821377\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\A821377\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\A821377\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\A821377\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\A821377\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\A821377\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

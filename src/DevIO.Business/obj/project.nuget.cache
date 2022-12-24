@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MlBSFzK5tKE49n5h0767Um2xSZ8x2bhCfLwMA+z6lXBjfqvcOcrLlwBVS29iO/JhRoR4KLbxEeIuIBa1U3ZNlw==",
+  "dgSpecHash": "afaO24zs25UTJWuac8TuLP51MopxI0ouOfR7UzkTGbvSXADI1ziMRk0JzcD7UBsW2YGfy/GJ+JdFVIB/Iryvng==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Estudo\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\A821377\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512"
+  ],
   "logs": []
 }
