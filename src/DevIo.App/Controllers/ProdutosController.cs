@@ -24,6 +24,8 @@ namespace DevIo.App.Controllers
             _fornecedorRepository = fornecedorRepository;
         }
 
+
+        [HttpGet]
         [Route("lista-de-produtos")]
         public async Task<IActionResult> Index()
         {
@@ -31,6 +33,7 @@ namespace DevIo.App.Controllers
             return View(produtos);
         }
 
+        [HttpGet]
         [Route("dados-do-produto/{id:guid}")]
         public async Task<IActionResult> Details(Guid id)
         {
@@ -41,6 +44,7 @@ namespace DevIo.App.Controllers
             return View(produtoViewModel);
         }
 
+        [HttpGet]
         [Route("novo-produto")]
         public async Task<IActionResult> Create()
         {
@@ -48,8 +52,8 @@ namespace DevIo.App.Controllers
             return View(produtoViewModel);
         }
 
-        [Route("novo-produto")]
         [HttpPost]
+        [Route("novo-produto")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ProdutoViewModel produtoViewModel)
         {
@@ -71,6 +75,7 @@ namespace DevIo.App.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
         [Route("editar-produto/{id:guid}")]
         public async Task<IActionResult> Edit(Guid id)
         {
@@ -81,8 +86,8 @@ namespace DevIo.App.Controllers
             return View(produtoViewModel);
         }
 
-        [Route("editar-produto/{id:guid}")]
         [HttpPost]
+        [Route("editar-produto/{id:guid}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Guid id, ProdutoViewModel produtoViewModel)
         {
@@ -118,6 +123,7 @@ namespace DevIo.App.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
         [Route("excluir-produto/{id:guid}")]
         public async Task<IActionResult> Delete(Guid id)
         {
@@ -128,8 +134,8 @@ namespace DevIo.App.Controllers
             return View(produtoViewModel);
         }
 
-        [Route("excluir-produto/{id:guid}")]
         [HttpPost, ActionName("Delete")]
+        [Route("excluir-produto/{id:guid}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {

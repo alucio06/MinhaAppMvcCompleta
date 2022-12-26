@@ -18,6 +18,8 @@ namespace DevIo.App.Configurations
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
             services.AddSingleton<IValidationAttributeAdapterProvider, MoedaValidationAttributeAdapterProvider>();
 
+            services.AddHttpContextAccessor();
+
             services.AddScoped<INotificador, Notificador>();
             services.AddScoped<IFornecedorService, FornecedorService>();
             services.AddScoped<IProdutoService, ProdutoService>();
