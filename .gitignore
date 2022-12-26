@@ -266,7 +266,3 @@ __pycache__/
 
 # Cake - Uncomment if you are using it
 # tools/
-/src/ProcurementMaster.BlazorApp
-/src/NimbiClient.Core/Client
-/src/NimbiClient.Core/Models/Compra
-/src/ConsoleParaTestes
